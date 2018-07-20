@@ -54,6 +54,9 @@
     .navigations li{
         font-size: 1.5em;
         font-weight: 500;
+        transition:  border-bottom .2s;
     }
 
-    
+    .navigations li:hover{
+        border-bottom: 3px solid #1a81c5; 
+    }
