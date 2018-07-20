@@ -60,3 +60,31 @@
     .navigations li:hover{
         border-bottom: 3px solid #1a81c5; 
     }
+
+    /* Burger */
+
+    .nav-burger{
+        width: 30px;
+        height: 30px;
+
+        cursor: pointer;
+        font-size: 0;
+
+        background-color: #1a81c5;
+        background: url(../images/settings.png) no-repeat;
+        background-position: center;
+        background-size: 25px;
+        position: absolute;
+        top: 16px;
+        left: 20px;
+        z-index: 10;
+    }
+
+
+    .nav-burger-checkbox:checked + .nav-burger{
+        background-image: url(../images/close.png);
+    }
+
+    .nav-burger-checkbox:checked ~ .nav{
+        display: block;
+    }
