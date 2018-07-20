@@ -1,0 +1,90 @@
+/* Header */
+.header{
+    background-color: #F0F3F7;
+    }
+    .header .container{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+    }
+
+    .logo img{
+        max-height: 100px;
+        border-radius: 10px;
+    }
+
+    .nav-burger-checkbox,
+    .nav-burger{
+        display: none;
+    }
+
+    .soc-icons{
+        font-size: 1.4em;
+        max-width: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0 15px 0;
+        position: absolute;
+        right: 0px;
+    }
+
+    .soc-icons-seqrch,
+    .soc-icons-net
+    {
+        cursor: pointer;
+    }
+
+    .soc-icons-net a{
+        color: black;
+        margin: 0 2px;
+    }
+
+    .navigations {
+        margin: 60px 0 0;
+    }
+    
+    .navigations ul{
+        display: flex;
+        justify-content: space-between;
+        max-width: 400px;
+        width: 400px;
+    }
+    
+    .navigations li{
+        font-size: 1.5em;
+        font-weight: 500;
+        transition:  border-bottom .2s;
+    }
+
+    .navigations li:hover{
+        border-bottom: 3px solid #1a81c5; 
+    }
+
+    /* Burger */
+
+    .nav-burger{
+        width: 30px;
+        height: 30px;
+
+        cursor: pointer;
+        font-size: 0;
+
+        background-color: #1a81c5;
+        background: url(../images/settings.png) no-repeat;
+        background-position: center;
+        background-size: 25px;
+        position: absolute;
+        top: 16px;
+        left: 20px;
+        z-index: 10;
+    }
+
+
+    .nav-burger-checkbox:checked + .nav-burger{
+        background-image: url(../images/close.png);
+    }
+
+    .nav-burger-checkbox:checked ~ .nav{
+        display: block;
+    }
