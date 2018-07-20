@@ -29,6 +29,10 @@
     max-width: 280px;
 }
 
+.image{
+    overflow: hidden;
+}
+
 .article img{
     height: auto;
     width: 100%;
