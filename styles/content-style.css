@@ -6,7 +6,8 @@
 .grid{
     display: grid;
     grid-template-areas:
-    "main aside";
+    "main aside"
+    "main2 aside";
     justify-content: space-between;
     grid-gap: 50px;
 }
@@ -24,6 +25,15 @@
     margin-right: -1.25rem;
 }
 
+.main2
+{
+  max-width: 950px;
+  width: 950px;
+  grid-area: main2;
+  padding: 2.5rem 0 7.5rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
 .article{
     padding: 1rem;
     max-width: 280px;
