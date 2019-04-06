@@ -47,13 +47,13 @@
     .navigations ul{
         display: flex;
         justify-content: space-between;
-        max-width: 400px;
-        width: 400px;
+        max-width: 1026px;
+        width: 1026px;
     }
     
     .navigations li{
-        font-size: 1.5em;
-        font-weight: 500;
+        font-size: 1em;
+        font-weight: 300;
         transition:  border-bottom .2s;
     }
 
